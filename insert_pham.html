@@ -32,44 +32,26 @@ footer {
 
 <body>
 <header>
-<h1> Welcome to the Squishmallow Database!</h1>
+<h1> Insert new Squishmallows to your collection here! </h1>
 </header>
 
 <nav>
-<a href="/techex-webproject/insert_pham.html">Click here to add a new squish</a> <br>
+<a href="/techex-webproject/search_pham.html">Search for a squish</a> <br>
 </nav>
 
 <section>
-	<h1>Search for Squish here!</h1>
+	<h1>What Squish are you adding?</h1>
 	
-	<form action="Search_Pham4" method="POST">
+	<form action="InsertPham" method="POST">
 	
-		Search by Name: <input type="text" name="keyword"> <br />
+		Name: <input type="text" name="name"> <br />
+		Species: <input type="text" name="species"> <br />
+		Color: <input type="text" name="color"> <br />
+		Size: <input type="text" name="size"> <br />
 		
-		<input type="submit" value="Search" />
-	</form>	
-	
-	<form action="Search_Pham" method="POST">
-	
-		Search by Species: <input type="text" name="keyword"> <br />
-		
-		<input type="submit" value="Search" />
-	</form>	
-	
-	<form action="Search_Pham3" method="POST">
-	
-		Search by Color: <input type="text" name="keyword"> <br />
-		
-		<input type="submit" value="Search" />
-	</form>	
-	
-	<form action="Search_Pham2" method="POST">
-	
-		Search by Size (5 inch, 8 inch, 13 inch, 18 inch, clip): <input type="text" name="keyword"> <br />
-		
-		<input type="submit" value="Search" />
-	</form>	
-	
+		<input type="submit" value="Submit" />
+	</form>
+
 </section>
 
 <footer>
