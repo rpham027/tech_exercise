@@ -1,0 +1,79 @@
+<html>
+<head>
+<style>
+header {
+    background-color:#CEF6F5;
+    color:black;
+    text-align:center;
+    padding:5px;	 
+}
+nav {
+    line-height:30px;
+    background-color:#F2F2F2;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;	      
+}
+section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+footer {
+    background-color:#CEF6F5;
+    color:black;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+</style>
+</head>
+
+<body>
+<header>
+<h1> Welcome to the Squishmallow Database!</h1>
+</header>
+
+<nav>
+<a href="/techex-webproject/insert_pham.html">Click here to add a new squish</a> <br>
+</nav>
+
+<section>
+	<h1>Search for Squish here!</h1>
+	
+	<form action="Search_Pham4" method="POST">
+	
+		Search by Name: <input type="text" name="keyword"> <br />
+		
+		<input type="submit" value="Search" />
+	</form>	
+	
+	<form action="Search_Pham" method="POST">
+	
+		Search by Species: <input type="text" name="keyword"> <br />
+		
+		<input type="submit" value="Search" />
+	</form>	
+	
+	<form action="Search_Pham3" method="POST">
+	
+		Search by Color: <input type="text" name="keyword"> <br />
+		
+		<input type="submit" value="Search" />
+	</form>	
+	
+	<form action="Search_Pham2" method="POST">
+	
+		Search by Size (5 inch, 8 inch, 13 inch, 18 inch, clip): <input type="text" name="keyword"> <br />
+		
+		<input type="submit" value="Search" />
+	</form>	
+	
+</section>
+
+<footer>
+Copyright
+</footer>
+</body>
+</html>
